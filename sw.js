@@ -50,6 +50,7 @@ self.addEventListener('activate', function (event) {
        );
      })
    );
+   event.waitUntil(clients.claim());
 });
 
 // Intercept fetch requests and store them in the cache
