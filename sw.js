@@ -36,7 +36,7 @@ self.addEventListener('activate', function (event) {
    * TODO - Part 2 Step 3
    * Create a function as outlined above, it should be one line
    */
-  event.waitUntil(clients.claim());
+  //event.waitUntil(clients.claim());
   var cacheAllowlist = ['pages-cache-v1', 'blog-posts-cache-v1'];
 
   event.waitUntil(
